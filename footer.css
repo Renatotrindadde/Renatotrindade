@@ -1,0 +1,11 @@
+.footer {
+  background: #000;
+  color: aliceblue;
+}
+
+@media (max-width:800px) {
+  .fotter-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
